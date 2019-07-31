@@ -1,22 +1,28 @@
 <!DOCTYPE html>
+<script type="text/javascript">
+if(screen.width<=600){
+	document.location = "mobile.html";
+}
+</script>
 <html>
 <head>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <title>Mydesign</title>
 <style id="applicationStylesheet" type="text/css">
+
 	body {
 		margin: 0;
 		padding: 0;
 	}
 	:root {
-		--web-view-ids: Web_1366___1;
+		--web-view-ids: Website;
 	}
-	#Web_1366___1 * {
+	#Website * {
 		margin: 0;
 		padding: 0;
 	}
-	#Web_1366___1 {
+	#Website {
 		position: absolute;
 		box-sizing: border-box;
 		background: #E5E5E5;
@@ -26,22 +32,38 @@
 		overflow: hidden;
 		margin: 0;
 		padding: 0;
-		--web-view-name: Web 1366 – 1;
-		--web-view-id: Web_1366___1;
+		--web-view-name: Website;
+		--web-view-id: Website;
 		--web-enable-deep-linking: true;
 	}
-	#Background {
+	#WebView {
 		position: absolute;
-		width: 1510px;
-		height: 1006.54px;
+		width: 1508.676px;
+		height: 1005.784px;
 		left: 0px;
-		top: -31.27px;
+		top: 0px;
 		overflow: visible;
 	}
-	#Background_A0_Rectangle_1 {
-		fill: url(#Background_A0_Rectangle_2_pattern);
+	#Composant {
+		position: absolute;
+		width: 1508.676px;
+		height: 1005.784px;
+		left: 0px;
+		top: 0px;
+		overflow: hidden;
 	}
-	.Background_A0_Rectangle_1 {
+	#Composant_0 {
+		position: absolute;
+		width: 1508.676px;
+		height: 1005.784px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Background {
+		fill: url(#Background_A1_Rectangle_2_pattern);
+	}
+	.Background {
 		position: absolute;
 		overflow: visible;
 		width: 1508.676px;
@@ -52,7 +74,7 @@
 	#Velyyn {
 		position: absolute;
 		left: 28px;
-		top: 49px;
+		top: 80.27px;
 		overflow: visible;
 		width: 119px;
 		white-space: nowrap;
@@ -65,8 +87,8 @@
 	}
 	#Home {
 		position: absolute;
-		left: 910.63px;
-		top: 50px;
+		left: 950.63px;
+		top: 81.27px;
 		overflow: visible;
 		width: 55px;
 		white-space: nowrap;
@@ -79,8 +101,8 @@
 	}
 	#MyWork {
 		position: absolute;
-		left: 1037.487px;
-		top: 50px;
+		left: 1067.487px;
+		top: 81.27px;
 		overflow: visible;
 		width: 74px;
 		white-space: nowrap;
@@ -94,7 +116,7 @@
 	#About {
 		position: absolute;
 		left: 1203.26px;
-		top: 49px;
+		top: 80.27px;
 		overflow: visible;
 		width: 55px;
 		white-space: nowrap;
@@ -108,7 +130,7 @@
 	#Contact {
 		position: absolute;
 		left: 1320px;
-		top: 50px;
+		top: 81.27px;
 		overflow: visible;
 		width: 72px;
 		white-space: nowrap;
@@ -122,12 +144,12 @@
 	#My_Design {
 		position: absolute;
 		left: 248.822px;
-		top: 387.654px;
+		top: 417.924px;
 		overflow: visible;
-		width: 256px;
+		width: 243px;
 		white-space: nowrap;
 		text-align: left;
-		font-family: Arial Rounded MT Bold;
+		font-family: Helvetica Neue;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 51px;
@@ -136,33 +158,37 @@
 </style>
 </head>
 <body>
-<div id="Web_1366___1">
-	<div id="Background">
-		<svg class="Background_A0_Rectangle_1">
-			<pattern elementId="Background_A0_Rectangle_2" id="Background_A0_Rectangle_2_pattern" x="0" y="0" width="100%" height="100%">
-				<image x="0" y="0" width="100%" height="100%" href="Background_A0_Rectangle_2_pattern.png" xlink:href="Background_A0_Rectangle_2_pattern.png"></image>
-			</pattern>
-			<rect id="Background_A0_Rectangle_1" rx="0" ry="0" x="0" y="0" width="1508.676" height="1005.784">
-			</rect>
-		</svg>
-	</div>
-	<div id="Velyyn">
-		<span>Velyyn</span>
-	</div>
-	<div id="Home">
-		<span>Home</span>
-	</div>
-	<div id="MyWork">
-		<span>MyWork</span>
-	</div>
-	<div id="About">
-		<span>About</span>
-	</div>
-	<div id="Contact">
-		<span>Contact</span>
-	</div>
-	<div id="My_Design">
-		<span>My Design</span>
+<div id="Website">
+	<div id="WebView">
+		<div id="Composant">
+			<div id="Composant_0">
+				<svg class="Background">
+					<pattern elementId="Background_A1_Rectangle_2" id="Background_A1_Rectangle_2_pattern" x="0" y="0" width="100%" height="100%">
+						<image x="0" y="0" width="100%" height="100%" href="Background_A1_Rectangle_2_pattern.png" xlink:href="Background_A1_Rectangle_2_pattern.png"></image>
+					</pattern>
+					<rect id="Background" rx="0" ry="0" x="0" y="0" width="1508.676" height="1005.784">
+					</rect>
+				</svg>
+				<div id="Velyyn">
+					<span>Velyyn</span>
+				</div>
+				<div id="Home">
+					<span>Home</span>
+				</div>
+				<div id="MyWork">
+					<span>MyWork</span>
+				</div>
+				<div id="About">
+					<span>About</span>
+				</div>
+				<div id="Contact">
+					<span>Contact</span>
+				</div>
+				<div id="My_Design">
+					<span>My Design</span>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 </body>
