@@ -5,10 +5,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <title>Mydesign</title>
 <style id="applicationStylesheet" type="text/css">
-html {
-    zoom: 1.05; 
-
-}
 	body {
 		margin: 0;
 		padding: 0;
@@ -24,8 +20,8 @@ html {
 		position: absolute;
 		box-sizing: border-box;
 		background: #E5E5E5;
-		width: 1366px;
-		height: 768px;
+		width: 100%;
+		height: 944px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
 		margin: 0;
@@ -34,35 +30,43 @@ html {
 		--web-view-id: Web_1366___1;
 		--web-enable-deep-linking: true;
 	}
-	#abstract_art_background_633409 {
-		fill: url(#UNADJUSTEDNONRAW_thumb_df);
-	}
-	.abstract_art_background_633409 {
-		position: center;
+	#Background {
+		position: absolute;
+		width: 1510px;
+		height: 1006.54px;
+		left: 0px;
+		top: -31.27px;
 		overflow: visible;
-		width: 1366px;
-		height: 910px;
+	}
+	#Background_A0_Rectangle_1 {
+		fill: url(#Background_A0_Rectangle_2_pattern);
+	}
+	.Background_A0_Rectangle_1 {
+		position: absolute;
+		overflow: visible;
+		width: 1508.676px;
+		height: 1005.784px;
 		left: 0px;
 		top: 0px;
 	}
 	#Velyyn {
 		position: absolute;
-		left: 63px;
-		top: 35px;
+		left: 28px;
+		top: 49px;
 		overflow: visible;
-		width: 122px;
+		width: 119px;
 		white-space: nowrap;
 		text-align: left;
 		font-family: Helvetica Neue;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 42px;
+		font-size: 41px;
 		color: rgba(255,255,255,1);
 	}
 	#Home {
 		position: absolute;
-		left: 1082px;
-		top: 61px;
+		left: 910.63px;
+		top: 50px;
 		overflow: visible;
 		width: 55px;
 		white-space: nowrap;
@@ -73,12 +77,12 @@ html {
 		font-size: 20px;
 		color: rgba(255,255,255,1);
 	}
-	#Overview {
+	#MyWork {
 		position: absolute;
-		left: 1167px;
-		top: 61px;
+		left: 1037.487px;
+		top: 50px;
 		overflow: visible;
-		width: 84px;
+		width: 74px;
 		white-space: nowrap;
 		text-align: left;
 		font-family: Helvetica Neue;
@@ -89,8 +93,8 @@ html {
 	}
 	#About {
 		position: absolute;
-		left: 1281px;
-		top: 61px;
+		left: 1203.26px;
+		top: 49px;
 		overflow: visible;
 		width: 55px;
 		white-space: nowrap;
@@ -101,42 +105,61 @@ html {
 		font-size: 20px;
 		color: rgba(255,255,255,1);
 	}
+	#Contact {
+		position: absolute;
+		left: 1320px;
+		top: 50px;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
 	#My_Design {
 		position: absolute;
-		left: 254px;
-		top: 400px;
+		left: 248.822px;
+		top: 387.654px;
 		overflow: visible;
-		width: 101px;
+		width: 256px;
 		white-space: nowrap;
 		text-align: left;
 		font-family: Arial Rounded MT Bold;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 20px;
+		font-size: 51px;
 		color: rgba(255,255,255,1);
 	}
 </style>
 </head>
 <body>
 <div id="Web_1366___1">
-	<svg class="abstract_art_background_633409">
-		<pattern elementId="abstract_art_background_633409_A0_Rectangle_2" id="UNADJUSTEDNONRAW_thumb_df" x="0" y="0" width="100%" height="100%">
-			<image x="0" y="0" width="100%" height="100%" href="UNADJUSTEDNONRAW_thumb_df.jpg" xlink:href="UNADJUSTEDNONRAW_thumb_df.png"></image>
-		</pattern>
-		<rect id="abstract_art_background_633409" rx="0" ry="0" x="0" y="0" width="1366" height="910">
-		</rect>
-	</svg>
+	<div id="Background">
+		<svg class="Background_A0_Rectangle_1">
+			<pattern elementId="Background_A0_Rectangle_2" id="Background_A0_Rectangle_2_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="Background_A0_Rectangle_2_pattern.png" xlink:href="Background_A0_Rectangle_2_pattern.png"></image>
+			</pattern>
+			<rect id="Background_A0_Rectangle_1" rx="0" ry="0" x="0" y="0" width="1508.676" height="1005.784">
+			</rect>
+		</svg>
+	</div>
 	<div id="Velyyn">
 		<span>Velyyn</span>
 	</div>
 	<div id="Home">
 		<span>Home</span>
 	</div>
-	<div id="Overview">
-		<span>Overview</span>
+	<div id="MyWork">
+		<span>MyWork</span>
 	</div>
 	<div id="About">
 		<span>About</span>
+	</div>
+	<div id="Contact">
+		<span>Contact</span>
 	</div>
 	<div id="My_Design">
 		<span>My Design</span>
