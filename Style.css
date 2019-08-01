@@ -82,7 +82,7 @@ nav ul li a{
            transition: all 0.2s ease;
        }
 
-       .MyNavigationul{
+       .MyNavigation ul{
            position: absolute;
            top: 50%;
            transform: translateY(-50%);
