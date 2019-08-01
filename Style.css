@@ -96,7 +96,7 @@ nav ul li a{
        margin-top: 50px;
        margin-bottom: 10px
     }
-    .MyNavigationul li:nth-child(1) a {
+    .MyNavigation ul li:nth-child(1) a {
         transition-delay: 0.2s;
       
      }
