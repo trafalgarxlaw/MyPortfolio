@@ -12,7 +12,7 @@ function myCfunction(){
     document.getElementById('contact').style.fontSize = "30px";
     document.getElementById('contact').style.transition = "all 1s";
     document.getElementById('contact').innerHTML = "masyyaf@gmail.com";
-    document.getElementById('contact').href="masyyaf@gmail.com";
+    document.getElementById('contact').href="https://www.google.com/gmail/";
     }
     opened=!opened;
 }
