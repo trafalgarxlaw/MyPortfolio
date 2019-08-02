@@ -193,13 +193,6 @@ transform: translateY(-6px) rotate(90deg);
     display: none;
 }
 
-h3{
-    font-family: 'Poppins', sans-serif;
-    color: rgb(29, 29, 29);
-    font-size: 8px;
-  
-    
-}
 .design{
     font-size: 8px;
     float: right;
