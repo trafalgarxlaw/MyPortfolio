@@ -12,13 +12,14 @@ function myCfunction(){
     document.getElementById('contact').style.fontSize = "30px";
     document.getElementById('contact').style.transition = "all 1s";
     document.getElementById('contact').innerHTML = "masyyaf@gmail.com";
-    document.getElementById('contact').href="https://www.google.com/gmail/";
+    document.getElementById('contact').href="";
     }
     opened=!opened;
   }else{
     if(!opened){
         document.getElementById('contact').style.fontSize = "30px";
         document.getElementById('contact').style.transition = "all 1s";
+        document.getElementById('contact').href="https://www.google.com/gmail/";
         }
         else{
             document.getElementById('contact').style.fontSize = "14px";
