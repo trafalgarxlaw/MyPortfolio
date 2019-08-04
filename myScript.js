@@ -16,7 +16,7 @@ function ContactFunction(){
     document.getElementById('contact').innerHTML = "contact";
     }
     else{
-    document.getElementById('contact').style.fontSize = "30px";
+    document.getElementById('contact').style.fontSize = "20px";
     document.getElementById('contact').style.transition = "all 1s";
     document.getElementById('contact').innerHTML = "masyyaf@gmail.com";
     }
