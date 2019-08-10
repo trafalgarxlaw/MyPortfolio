@@ -8,11 +8,15 @@
         <link rel="stylesheet" href="Style.css">
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
         <script src="myScript.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
   
 
     </head>
 
     <body>
+            <div class="overlay">
+                    <h1>Designed from scratch</h1> 
+                </div>
         <div class="container">
             <nav>
                 <input type="checkbox" onclick="Chekbox()" id="nav" class="hidden">
@@ -26,7 +30,7 @@
                     <a href="#">Velyyn</a>
                 </div>
                 <div class="design">
-                    <a href="#">Designed in the middle of the night</a>
+                    <a href="#">Designed from scratch</a>
                 </div>
 
                 <div class="MyNavigation">
@@ -42,11 +46,26 @@
                 </div>
             </nav>
     
-        </div>
+         </div>
+
+         <script type="text/javascript">
+            TweenMax.to(".overlay h1", 2,{
+                opacity:0,
+                y:-60,
+                ease: Expo.easeInOut
+            } )
+            TweenMax.to(".overlay", 2,{
+                delay:1,
+                top:"-100%",
+                ease: Expo.easeInOut
+            } )
+          
+            </script>
 
     </body>
 
-
+  
+  
 
 
 
