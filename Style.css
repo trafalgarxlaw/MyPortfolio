@@ -16,7 +16,7 @@ body{
     height: 100vh;
     font-family: 'Poppins';
     font-weight: 400;
-    background: url(Background2.jpg) ;
+    background: url(Background5.jpg) ;
     background-position: center;
     background-size: cover;
 }
@@ -38,6 +38,22 @@ nav{
     text-decoration: none;
 
 }
+.design{
+    font-size: 8px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 50px;
+
+    
+
+}
+.design a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+
 nav ul{
 
     float: right;
@@ -208,22 +224,5 @@ transform: translateY(-6px) rotate(90deg);
 }
 .hidden{
     display: none;
-}
-
-.design{
-    font-size: 8px;
-    float: right;
-    margin-right: 10px;
-    margin-top: 50px;
-
-    
-
-}
-.design a{
-    color: rgb(12, 9, 9);
-    text-decoration: none;
-
-    
-
 }
 
