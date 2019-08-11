@@ -22,6 +22,7 @@ body{
 }
 nav{
     padding: 8px;
+    
 }
 .logo{
     float: left;
@@ -41,8 +42,8 @@ nav{
 .design{
     font-size: 8px;
     float: right;
-    margin-right: 10px;
-    margin-top: 50px;
+    clear: both;
+    margin-right: 1%;
 
     
 
@@ -195,9 +196,6 @@ nav ul li a{
     .nav-btn i:nth-child(3){
         margin-top: 4px;
     }
-
-
-
    }
 
 #nav:checked +.nav-btn{
@@ -233,16 +231,13 @@ transform: translateY(-6px) rotate(90deg);
 }
 
 .social-media{
-    width: 300px;
-    height: 300px;
-    left: 5px;
-    float: right;
     position: absolute;
-    top: 50%;
-    transform: rotate(-90deg);
-
+    top: 30%;
+    transform: translateY(-50%);
+    left: -20px;
 }
 .social-media ul li{
+    padding: 10px;
     list-style: none;
     color: #fff;
 
