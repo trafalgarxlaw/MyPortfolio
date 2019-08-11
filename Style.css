@@ -44,6 +44,7 @@ nav{
     float: right;
     clear: both;
     margin-right: 1%;
+    
 
     
 
@@ -234,7 +235,7 @@ transform: translateY(-6px) rotate(90deg);
     position: absolute;
     top: 30%;
     transform: translateY(-50%);
-    left: -20px;
+    left: -40px;
 }
 .social-media ul li{
     padding: 10px;
