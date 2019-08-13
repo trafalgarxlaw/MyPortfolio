@@ -1,6 +1,10 @@
+//Reload
 if(performance.navigation.type == 2){
   location.reload(true);
 }
+
+
+//Events
 let opened=false;
 let clicked=false;
 let Chekboxopened=false;
