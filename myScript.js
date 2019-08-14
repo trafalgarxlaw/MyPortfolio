@@ -19,7 +19,7 @@ function Chekbox(){
 function ContactFunction(){ 
     if(window.innerWidth < 864){    
     if(opened){
-    document.getElementById('contact').style.fontSize = "14px";
+    document.getElementById('contact').style.fontSize = "17px";
     document.getElementById('contact').innerHTML = "contact";
     }
     else{
@@ -30,7 +30,7 @@ function ContactFunction(){
     opened=!opened;
   }else{
     if(!opened){
-        document.getElementById('contact').style.fontSize = "30px";
+        document.getElementById('contact').style.fontSize = "17px";
         document.getElementById('contact').style.transition = "all 1s";
         }
         else{
@@ -48,13 +48,13 @@ function MySkillsFunction(){
     document.getElementById('myskills').innerHTML = "myskills";
     }
     else{
-    document.getElementById('myskills').style.fontSize = "30px";
+    document.getElementById('myskills').style.fontSize = "17px";
     document.getElementById('myskills').style.transition = "all 1s";
     }
     opened=!opened;
   }else{
     if(!opened){
-        document.getElementById('myskills').style.fontSize = "30px";
+        document.getElementById('myskills').style.fontSize = "17px";
         document.getElementById('myskills').style.transition = "all 1s";
         }
         else{
@@ -72,13 +72,13 @@ function OverviewFunction(){
     document.getElementById('overview').innerHTML = "overview";
     }
     else{
-    document.getElementById('overview').style.fontSize = "30px";
+    document.getElementById('overview').style.fontSize = "17px";
     document.getElementById('overview').style.transition = "all 1s";
     }
     opened=!opened;
   }else{
     if(!opened){
-        document.getElementById('overview').style.fontSize = "30px";
+        document.getElementById('overview').style.fontSize = "17px";
         document.getElementById('overview').style.transition = "all 1s";
         }
         else{
@@ -96,13 +96,13 @@ function HomeFunction(){
     document.getElementById('home').innerHTML = "home";
     }
     else{
-    document.getElementById('home').style.fontSize = "30px";
+    document.getElementById('home').style.fontSize = "17px";
     document.getElementById('home').style.transition = "all 1s";
     }
     opened=!opened;
   }else{
     if(!opened){
-        document.getElementById('home').style.fontSize = "30px";
+        document.getElementById('home').style.fontSize = "17px";
         document.getElementById('home').style.transition = "all 1s";
         }
         else{
