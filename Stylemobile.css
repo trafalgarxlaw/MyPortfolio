@@ -73,7 +73,7 @@ nav ul li:not(:first-child){
 
 }
 nav ul li:last-child{
-    margin-right: 24px;
+    margin-right: 2px;
     
 }
 nav ul li a{
@@ -133,7 +133,7 @@ nav ul li a{
        .MyNavigation ul{
            
            position: absolute;
-           top: 50%;
+           top: 35%;
            transform: translateY(-50%);
            width: 100%;
        }
@@ -142,7 +142,7 @@ nav ul li a{
        float: none;
        width: 100%;
        text-align: right;
-       margin-top: 50px;
+       margin-top: 20px;
        margin-bottom: 10px
     }
     .MyNavigation ul li:nth-child(1) a {
@@ -182,7 +182,7 @@ nav ul li a{
 
         text-transform: none;
 
-       padding: 10px 24px;  
+       padding: 0px 20px;  
        opacity: 0;
        font-size: 14px;
        letter-spacing: 1.2px;
