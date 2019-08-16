@@ -243,7 +243,7 @@ transform: translateY(-6px) rotate(90deg);
 
 #nav:checked ~ .MyNavigation{
     z-index: 9990;
-    opacity: 0.4;
+    opacity: 0.7;
     
 }
 #nav:checked ~ .MyNavigation ul li a{
