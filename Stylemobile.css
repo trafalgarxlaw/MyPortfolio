@@ -133,7 +133,7 @@ nav ul li a{
        .MyNavigation ul{
            
            position: absolute;
-           top: 35%;
+           top: 45%;
            transform: translateY(-50%);
            width: 100%;
        }
