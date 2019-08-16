@@ -190,10 +190,7 @@ h1 {
             width: 10%;
       }
 
-      .toggle-btn {
-            position: absolute;
-            transform: translate(-50%, -90%);
-      }
+      
 
       .menu li #menu {
             font-size: 18px;
