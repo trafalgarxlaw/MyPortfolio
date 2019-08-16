@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Responsive Navigation</title>
+        <link rel="stylesheet" href="Style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <script src="myScript.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+    </head>
+
+    <body>
+            <div class="overlay">
+                    <h1>Designed from scratch</h1> 
+                </div>
+        <div class="container">
+            <nav>
+                <input type="checkbox" onclick="Chekbox()" id="nav" class="hidden">
+                <label for="nav" class="nav-btn">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </label>
+
+                <div class="logo">
+                    <a href="#">Velynn</a>
+                </div>
+            
+                <div class="MyNavigation">
+                    <ul>
+                        <li><a id="home" href="index.html"  onmouseover="HomeFunction()" onmouseout="HomeFunction()"  >Home</a></li>
+                        <li><a id="overview" href="About.html"  onmouseover="OverviewFunction()" onmouseout="OverviewFunction()" >About</a></li>
+                        <li><a  id="myskills" href="Skills.html" onmouseover="MySkillsFunction()" onmouseout="MySkillsFunction()" >MySkills</a></li>
+                        <li><a  id="contact" href="#"  onclick="location.href='contact.html'" onmouseover="ContactFunction()" onmouseout="ContactFunction()" >Contact</a></li>
+
+                    </ul>
+
+
+                </div>
+            </nav>
+    
+         </div>
+         
+
+         <div class="design">
+            <a href="#">Designed from scratch</a>
+        </div>
+        
+         <div class="social-media">
+            <ul>
+                <li><a href="https://facebook.com" class="fa fa-facebook" aria-hidden="true"></a></li>
+                <li><a href="https://instagram.com/?hl=fr-ca"class="fa fa-instagram" aria-hidden="true"></a></li>
+                <li><a href="https://twitter.com/?lang=en"class="fa fa-twitter" aria-hidden="true"></a></li>
+            </ul>
+        </div>
+
+         <script type="text/javascript">
+            TweenMax.to(".overlay h1", 2,{
+                opacity:0,
+                y:-60,
+                ease: Expo.easeInOut
+            } )
+            TweenMax.to(".overlay", 2,{
+                delay:1,
+                top:"-120%",
+                ease: Expo.easeInOut
+            } )
+          
+            </script>
+
+    </body>
+
+  
+  
+
+
+
+
+</html>
