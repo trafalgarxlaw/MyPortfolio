@@ -27,7 +27,7 @@ h1 {
 .menu-strip {
       background: #fff;
       position: fixed;
-      width: 5%;
+      width: 10%;
       height: 100vh;
       border-right: 1px solid rgba(0,0,0,0.1);
       z-index: 1;
@@ -42,14 +42,14 @@ h1 {
 
 .toggle-btn ion-icon {
       font-size: 28px;
-      color: #000000;
+      color: #a66f2c;
 }
 
 .nav .menu {
       position: absolute;
       width: 0%;
       height: 100vh;
-      left: 5%;
+      left: 10%;
       background: #fff;
 }
 
@@ -81,7 +81,7 @@ h1 {
 }
 
 .nav .menu ul li {
-      color: #000000;
+      color: #594637;
       font-weight: lighter;
       font-size: 30px;
       line-height: 60px;
@@ -115,7 +115,7 @@ h1 {
 }
 
 .nav .menu ul li:hover #tag {
-      color: #000000;
+      color: #a66f2c;
       transition: 1s;
 }
 
@@ -177,7 +177,7 @@ h1 {
 
       .nav .menu {
             width: 0%;
-            left: 10%;
+            left: 20%;
       }
 
       .menu ul {
@@ -187,10 +187,13 @@ h1 {
       }
 
       .menu-strip {
-            width: 10%;
+            width: 20%;
       }
 
-      
+      .toggle-btn {
+            position: absolute;
+            transform: translate(-50%, -90%);
+      }
 
       .menu li #menu {
             font-size: 18px;
