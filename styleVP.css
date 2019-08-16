@@ -191,8 +191,7 @@ h1 {
       }
 
       .toggle-btn {
-            position: absolute;
-            transform: translate(-50%, -90%);
+            position: relative;
       }
 
       .menu li #menu {
