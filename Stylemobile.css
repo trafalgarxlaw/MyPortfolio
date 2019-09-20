@@ -40,7 +40,7 @@ nav{
     font-size: 20px;
     letter-spacing: 12px;
     font-weight: 400;
-    color: rgb(182, 182, 182);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 
 
@@ -53,7 +53,7 @@ nav{
     margin-right: 1%;
 }
 .design a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 
 }
@@ -205,7 +205,7 @@ nav ul li a{
         display: block;
         width: 20px;
         height: 2px;
-        background: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
         border-radius: 2px;
         margin-left: 14px;
            
